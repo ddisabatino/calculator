@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8F64B7AD1715E85600985849 /* textured_paper_@2X.png in Resources */ = {isa = PBXBuildFile; fileRef = 8F64B7AB1715E85600985849 /* textured_paper_@2X.png */; };
+		8F64B7AE1715E85600985849 /* textured_paper.png in Resources */ = {isa = PBXBuildFile; fileRef = 8F64B7AC1715E85600985849 /* textured_paper.png */; };
+		8F64B7B21715EDF300985849 /* tex2res5_@2X.png in Resources */ = {isa = PBXBuildFile; fileRef = 8F64B7B01715EDF300985849 /* tex2res5_@2X.png */; };
+		8F64B7B31715EDF300985849 /* tex2res5.png in Resources */ = {isa = PBXBuildFile; fileRef = 8F64B7B11715EDF300985849 /* tex2res5.png */; };
 		8FCA226316AE5B9000060958 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8FCA226216AE5B9000060958 /* UIKit.framework */; };
 		8FCA226516AE5B9000060958 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8FCA226416AE5B9000060958 /* Foundation.framework */; };
 		8FCA226716AE5B9000060958 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8FCA226616AE5B9000060958 /* CoreGraphics.framework */; };
@@ -21,6 +25,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8F64B7AB1715E85600985849 /* textured_paper_@2X.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "textured_paper_@2X.png"; sourceTree = "<group>"; };
+		8F64B7AC1715E85600985849 /* textured_paper.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = textured_paper.png; sourceTree = "<group>"; };
+		8F64B7B01715EDF300985849 /* tex2res5_@2X.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "tex2res5_@2X.png"; path = "../tex2res5_@2X.png"; sourceTree = "<group>"; };
+		8F64B7B11715EDF300985849 /* tex2res5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = tex2res5.png; path = ../tex2res5.png; sourceTree = "<group>"; };
 		8FCA225E16AE5B9000060958 /* Calculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Calculator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8FCA226216AE5B9000060958 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		8FCA226416AE5B9000060958 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -83,6 +91,10 @@
 		8FCA226816AE5B9000060958 /* Calculator */ = {
 			isa = PBXGroup;
 			children = (
+				8F64B7AB1715E85600985849 /* textured_paper_@2X.png */,
+				8F64B7B01715EDF300985849 /* tex2res5_@2X.png */,
+				8F64B7B11715EDF300985849 /* tex2res5.png */,
+				8F64B7AC1715E85600985849 /* textured_paper.png */,
 				8FCA227116AE5B9000060958 /* DPDAppDelegate.h */,
 				8FCA227216AE5B9000060958 /* DPDAppDelegate.m */,
 				8FCA227A16AE5B9000060958 /* MainStoryboard.storyboard */,
@@ -164,6 +176,10 @@
 				8FCA227716AE5B9000060958 /* Default@2x.png in Resources */,
 				8FCA227916AE5B9000060958 /* Default-568h@2x.png in Resources */,
 				8FCA227C16AE5B9000060958 /* MainStoryboard.storyboard in Resources */,
+				8F64B7AD1715E85600985849 /* textured_paper_@2X.png in Resources */,
+				8F64B7AE1715E85600985849 /* textured_paper.png in Resources */,
+				8F64B7B21715EDF300985849 /* tex2res5_@2X.png in Resources */,
+				8F64B7B31715EDF300985849 /* tex2res5.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -293,6 +309,7 @@
 				8FCA228416AE5B9000060958 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

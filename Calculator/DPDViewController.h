@@ -9,5 +9,22 @@
 #import <UIKit/UIKit.h>
 
 @interface DPDViewController : UIViewController
+{
+    IBOutlet UILabel *display;
+    
+    float firstNumber;
+    float secondNumber;
+    float solution;
+    NSString *operation;
+    NSString *currentNumber;
+    
+}
+
+- (IBAction)pressedButton:(id)sender;
+-(IBAction)operationPressed:(id)sender;
+-(IBAction)equalPressed:(id)sender;
+-(IBAction)negative:(id)sender;
+-(IBAction)clear:(id)sender;
+
 
 @end
